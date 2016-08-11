@@ -71,7 +71,7 @@
     <!-- End Single Page Apps for GitHub Pages -->
 
     <!-- Start Google Analytics -->
-    粘贴到index.html里
+    粘贴到index.html里中
 
 
     在index.html 里 ./build/bundle.js
