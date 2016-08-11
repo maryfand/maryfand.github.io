@@ -13,8 +13,8 @@ import Search from './components/Blog/Search';
 export default (
   <Route path="/" component={App}>
     <IndexRoute component={Home} />
-    <Route path="about" component={About} />
-    <Route path="blog" component={Blog} />
+    <Route path="/about" component={About} />
+    <Route path="/blog" component={Blog} />
     <Route path="blog/:title" component={Post} />
   </Route>
 )
