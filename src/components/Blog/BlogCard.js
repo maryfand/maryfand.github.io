@@ -6,18 +6,19 @@ class BlogCard extends Component {
     this.context.router.push(`blog/${this.props.url}`);
   }
   render(){
-    console.log(this.context.router);
+    // console.log(this.context.router);
     let styles={
       root:{
         width:'80%',
         height:'100px',
-        margin:'10px auto',
-        cursor:'pointer',
+        margin:'30px auto',
+        cursor: 'pointer',
         boxShadow: '0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12)',
       },
       index:{
         float:'left',
-        width:'80px',
+        width:'20%',
+        maxWidth:'80px',
         height:'100px',
         textAlign:'center',
         backgroundColor:'#00bcd4',
@@ -27,15 +28,22 @@ class BlogCard extends Component {
       content:{
         float:'left',
         color:'#777',
-        paddingLeft:'10px'
+        paddingLeft:'10px',
+        width:'60%'
+      },
+      title:{
+        fontSize:'15px'
+      },
+      rgb:{
+        fontSize:'15px'
       }
     }
     return(
       <div style={styles.root} onClick={this.handleClick.bind(this)}>
         <div style={styles.index}>{this.props.index}</div>
         <div style={styles.content}>
-          <h3>{this.props.title}</h3>
-          <p>{this.props.date}</p>
+          <h3 style={styles.title}>{this.props.title}</h3>
+          <p style={styles.rgb}>{this.props.date}</p>
         </div>
       </div>
     )
@@ -53,7 +61,9 @@ BlogCard.defaultProps = {
   index: 1,
   date: '2016.7.19',
 };
+
 BlogCard.contextTypes = {
-  router : React.PropTypes.object.isRequired
-};
+  router: React.PropTypes.object.isRequired
+}
+
 export default BlogCard;
