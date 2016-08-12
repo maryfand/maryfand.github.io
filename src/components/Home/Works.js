@@ -34,7 +34,7 @@ class Works extends React.Component {
             <a href="https://maryfand.github.io/Some-exercises/" className="work-list">
               <Card className="work-card">
                 <CardMedia overlay={<CardTitle title="其他案例" subtitle="一些练手作品" style={styles.title}/>} >
-                  <img src="http://obbjyirz0.bkt.clouddn.com/668573_210906041541_2~001.jpg" />
+                  <img src="http://obbjyirz0.bkt.clouddn.com/%E6%B7%B1%E5%BA%A6%E6%88%AA%E5%9B%BE20160812205910.png" />
                 </CardMedia>
               </Card>
             </a>
