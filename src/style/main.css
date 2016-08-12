@@ -101,18 +101,17 @@ h1 {
   margin: 0 auto;
   padding: 10px;
 }
-.card{
+.work-card{
   width: 100%;
   margin-bottom: 10px;
 }
 @media(min-width:500px){
-  .card{
+  .work-card{
     width: 49%;
-  };
-  
+  }
 }
 @media(min-width:760px){
-  .card{
-    width: 50%;
+  .work-card{
+    width: 32%;
   }
 }
