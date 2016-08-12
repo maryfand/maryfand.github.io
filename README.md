@@ -74,5 +74,5 @@
     粘贴到index.html里
 
 
-    在index.html 里 ./build/bundle.js
+    在index.html 里的 ./build/bundle.js
                 改成  /build/bundle.js
