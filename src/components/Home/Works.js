@@ -27,7 +27,7 @@ class Works extends React.Component {
         <a href="https://maryfand.github.io/html5" className="work-list">
             <Card className="work-card">
               <CardMedia overlay={<CardTitle title="html5" subtitle=" 小 demo" style={styles.title}/>} >
-                <img src="http://obbjyirz0.bkt.clouddn.com/5984aa4178474ac207dcd7e92df45b9f.jpg" />
+                <img src="http://obbjyirz0.bkt.clouddn.com/668573_210906041541_2~001.jpg" />
               </CardMedia>
             </Card>
         </a>
@@ -48,7 +48,7 @@ class Works extends React.Component {
         <a href="https://maryfand.github.io/100" className="work-list">
               <Card className="work-card">
                 <CardMedia overlay={<CardTitle title="javascript" subtitle="我的小案例" style={styles.title}/>} >
-                  <img src="http://obbjyirz0.bkt.clouddn.com/a12f9749859f9aef9bcb28fcf7f544a5.jpg" />
+                  <img src="http://obbjyirz0.bkt.clouddn.com/668573_210906041541_2~001.jpg" />
                 </CardMedia>
               </Card>
         </a>
